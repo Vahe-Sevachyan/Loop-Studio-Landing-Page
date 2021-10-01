@@ -1,0 +1,30 @@
+.gridSection {
+  max-width: 68%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-column-gap: 2rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+  grid-row-gap: 2rem;
+  margin-bottom: 10rem;
+}
+.grid-Img {
+  width: 100%;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+.gridText {
+  top: 75%;
+  left: 10%;
+  width: 19rem;
+  font-size: 3.5rem;
+  position: absolute;
+  color: #fff;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 300;
+}
+.four {
+  width: 9rem;
+}

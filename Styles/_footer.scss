@@ -1,0 +1,35 @@
+footer {
+  background-color: black;
+}
+footer a {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "josefin sans", sans-serif;
+}
+.studioLogo-socialIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+.copyRight {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "josefin sans", sans-serif;
+}
+.links-copyRight {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.footerLinks {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
