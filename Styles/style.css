@@ -81,6 +81,10 @@ header {
     margin: auto;
     max-width: 87vw;
   }
+
+  header {
+    margin-bottom: 5rem;
+  }
 }
 @media (max-width: 820px) {
   .immersiveHeader {
@@ -244,13 +248,17 @@ header {
 }
 
 @media (max-width: 1585px) {
+  .creationsButtons {
+    margin-top: 10rem;
+  }
+
   .vrContentWrapper {
     margin: auto;
   }
 
   .vrSection {
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 0rem;
     position: static;
     max-width: 90vw;
     margin: auto;
@@ -266,13 +274,14 @@ header {
     margin: auto;
     right: 0rem;
     padding: 0rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
     max-width: 90vw;
     position: static;
   }
 
   .vrHeader {
     text-align: center;
+    font-weight: 300;
   }
 
   .vrParagraph {
@@ -280,18 +289,33 @@ header {
     line-height: 2.7rem;
   }
 }
-@media (max-width: 525px) {
+@media (max-width: 840px) {
+  .creationsButtons {
+    display: none;
+  }
+}
+@media (min-width: 841px) {
+  .creationHeaderMobile {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
   .vrHeader {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1.8rem;
   }
 
   .vrText {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .vrParagraph {
     font-size: 1.7rem;
+  }
+}
+@media (max-width: 750px) {
+  .vrHeader {
+    font-size: 4rem;
   }
 }
 @media (max-width: 360px) {

@@ -66,6 +66,9 @@ header {
     margin: auto;
     max-width: 87vw;
   }
+  header {
+    margin-bottom: 5rem;
+  }
 }
 @media (max-width: 820px) {
   .immersiveHeader {
