@@ -73,6 +73,15 @@
   border: 1px solid black;
   background-color: #fff;
 }
+.creationHeaderMobile {
+  margin: auto;
+  width: 80%;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 3.7rem;
+  font-family: "josefin sans";
+}
 @media (max-width: 1585px) {
   .creationsButtons {
     margin-top: 10rem;
@@ -109,6 +118,8 @@
     line-height: 2.7rem;
   }
 }
+//Break points section
+//creation buttons
 @media (max-width: 840px) {
   .creationsButtons {
     display: none;
@@ -119,6 +130,8 @@
     display: none;
   }
 }
+
+//Break points section
 @media (max-width: 750px) {
   .vrHeader {
     font-size: 5rem;
@@ -130,15 +143,22 @@
   .vrParagraph {
     font-size: 1.7rem;
   }
-}
-@media (max-width: 750px) {
   .vrHeader {
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .creationHeaderMobile {
+    font-size: 3rem;
   }
 }
 @media (max-width: 360px) {
   .vrHeader {
     font-size: 3rem;
+  }
+  .creationHeaderMobile {
+    font-size: 2rem;
   }
 }
 //////////////////////////////@at-root

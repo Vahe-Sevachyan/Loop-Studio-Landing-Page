@@ -25,6 +25,37 @@
   font-family: "josefin sans", sans-serif;
   font-weight: 300;
 }
-.four {
-  width: 9rem;
+
+//mobile grid
+.mobileGrid {
+  max-width: 90%;
+  margin: auto;
+}
+//mobile grid
+.mobileGridText {
+  top: 10rem;
+  font-size: 3.5rem;
+  position: absolute;
+  color: #fff;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 300;
+}
+.mobileGrid .imageContainer img {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+// .four {
+//   width: 9rem;
+// }
+// grid switch break point
+@media (max-width: 839px) {
+  .gridSection {
+    display: none;
+  }
+}
+@media (min-width: 840px) {
+  .mobileGrid {
+    display: none;
+  }
 }

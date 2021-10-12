@@ -247,6 +247,16 @@ header {
   background-color: #fff;
 }
 
+.creationHeaderMobile {
+  margin: auto;
+  width: 80%;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 3.7rem;
+  font-family: "josefin sans";
+}
+
 @media (max-width: 1585px) {
   .creationsButtons {
     margin-top: 10rem;
@@ -312,15 +322,23 @@ header {
   .vrParagraph {
     font-size: 1.7rem;
   }
-}
-@media (max-width: 750px) {
+
   .vrHeader {
     font-size: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  .creationHeaderMobile {
+    font-size: 3rem;
   }
 }
 @media (max-width: 360px) {
   .vrHeader {
     font-size: 3rem;
+  }
+
+  .creationHeaderMobile {
+    font-size: 2rem;
   }
 }
 .gridSection {
@@ -354,10 +372,36 @@ header {
   font-weight: 300;
 }
 
-.four {
-  width: 9rem;
+.mobileGrid {
+  max-width: 90%;
+  margin: auto;
 }
 
+.mobileGridText {
+  top: 10rem;
+  font-size: 3.5rem;
+  position: absolute;
+  color: #fff;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 300;
+}
+
+.mobileGrid .imageContainer img {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 839px) {
+  .gridSection {
+    display: none;
+  }
+}
+@media (min-width: 840px) {
+  .mobileGrid {
+    display: none;
+  }
+}
 footer {
   background-color: black;
 }
