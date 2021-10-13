@@ -57,7 +57,6 @@
   font-family: "josefin sans", sans-serif;
 }
 .creationsButtons {
-  // padding: 0rem 15rem 0rem 15rem;
   margin-top: 15rem;
   display: flex;
   justify-content: space-between;
@@ -81,6 +80,17 @@
   text-align: center;
   font-size: 3.7rem;
   font-family: "josefin sans";
+}
+.seeAllHeaderMobile {
+  text-align: center;
+  width: 25rem;
+  margin: auto;
+  font-size: 3.2rem;
+  font-family: "josefin sans";
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border: 1px solid black;
+  padding: 1.7rem 3rem 1rem 3rem;
 }
 @media (max-width: 1585px) {
   .creationsButtons {
@@ -147,10 +157,20 @@
     font-size: 4rem;
   }
 }
+@media (max-width: 750px) {
+  .seeAllHeaderMobile {
+    width: 20rem;
+    font-size: 2.5rem;
+  }
+}
 
 @media (max-width: 450px) {
   .creationHeaderMobile {
     font-size: 3rem;
+  }
+  .seeAllHeaderMobile {
+    width: 17rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 360px) {
@@ -161,117 +181,3 @@
     font-size: 2rem;
   }
 }
-//////////////////////////////@at-root
-
-// .vrContentContainer {
-//   margin-top: 10rem;
-//   position: relative;
-//   max-width: 68%;
-//   margin: auto;
-//   height: auto;
-// }
-// .vrText {
-//   // width: 68em;
-//   position: absolute;
-//   background-color: #fff;
-//   top: 20.4rem;
-//   left: 71em;
-//   padding-left: 12rem;
-//   padding-top: 12rem;
-//   margin-right: 1rem;
-// }
-// .vrSection {
-//   width: 100%;
-//   margin: auto;
-//   height: auto;
-// }
-////////////////////////////////////////////////
-// .vrContentContainer {
-//   margin-top: 10rem;
-//   position: relative;
-//   max-width: 68%;
-//   margin: auto;
-// }
-// .vrText {
-//   width: 68rem;
-//   position: absolute;
-//   background-color: #fff;
-//   top: 23rem;
-//   left: 75em;
-//   padding-left: 12rem;
-//   padding-top: 12rem;
-// }
-// .vrImg {
-//   min-width: 90rem;
-// }
-// .vrImg {
-//   min-width: 90rem;
-// }
-////////////////////////////////////////////////
-// .vrContentWrapper {
-//   width: 100%;
-//   display: flex;
-// }
-// .vrContentContainer {
-//   margin-top: 10rem;
-//   grid-template-columns: 2fr 1fr;
-//   position: relative;
-// }
-// .vrText {
-//   width: 70rem;
-//   position: absolute;
-//   background-color: #fff;
-//   top: 20rem;
-//   left: 76em;
-//   padding-left: 13rem;
-//   padding-top: 13rem;
-// }
-////////////////////////////////////////////////
-
-// .vrContentWrapper {
-//   max-width: 100%;
-// }
-// .vrContentContainer {
-//   // width: 100%;
-//   margin-top: 10rem;
-//   // display: flex;
-//   justify-content: space-between;
-//   // position: relative;
-//   // overflow: hidden;
-//   display: flex;
-// }
-// .vrText {
-//   // top: 38.2%;
-//   // left: 50%;
-//   max-width: 50%;
-//   margin-top: auto;
-//   padding: 11rem 0rem 0rem 15rem;
-//   // position: absolute;
-//   // right: 10rem;
-//   background-color: #fff;
-//   z-index: 1;
-// }
-// .vrImg {
-//   min-width: 60%;
-//   height: auto;
-// }
-// .vrContentWrapper {
-//   max-width: 100%;
-//   display: flex;
-//   justify-content: space-between;
-// }
-// .vrText {
-//   min-width: 50%;
-//   margin-top: auto;
-//   padding: 11rem 0rem 0rem 15rem;
-//   position: relative;
-
-//   right: 20rem;
-//   background-color: #fff;
-// }
-// .vrSection {
-//   margin: auto;
-//   display: flex;
-//   position: relative;
-//   max-width: 68%;
-// }

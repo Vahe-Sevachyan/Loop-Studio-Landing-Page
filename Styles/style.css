@@ -257,6 +257,18 @@ header {
   font-family: "josefin sans";
 }
 
+.seeAllHeaderMobile {
+  text-align: center;
+  width: 25rem;
+  margin: auto;
+  font-size: 3.2rem;
+  font-family: "josefin sans";
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border: 1px solid black;
+  padding: 1.7rem 3rem 1rem 3rem;
+}
+
 @media (max-width: 1585px) {
   .creationsButtons {
     margin-top: 10rem;
@@ -327,9 +339,20 @@ header {
     font-size: 4rem;
   }
 }
+@media (max-width: 750px) {
+  .seeAllHeaderMobile {
+    width: 20rem;
+    font-size: 2.5rem;
+  }
+}
 @media (max-width: 450px) {
   .creationHeaderMobile {
     font-size: 3rem;
+  }
+
+  .seeAllHeaderMobile {
+    width: 17rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 360px) {
@@ -378,18 +401,28 @@ header {
 }
 
 .mobileGridText {
-  top: 10rem;
-  font-size: 3.5rem;
+  top: 13rem;
+  left: 5rem;
+  font-size: 4.1em;
   position: absolute;
-  color: #fff;
+  color: #f5f1f1;
   font-family: "josefin sans", sans-serif;
   font-weight: 300;
+  width: 21rem;
 }
 
-.mobileGrid .imageContainer img {
+.mobileImageContainer {
+  position: relative;
+}
+
+.mobileGrid .mobileImageContainer img {
   margin: auto;
   width: 100%;
   margin-bottom: 2rem;
+}
+
+.mobileGridText-x {
+  width: 10rem;
 }
 
 @media (max-width: 839px) {
@@ -400,6 +433,45 @@ header {
 @media (min-width: 840px) {
   .mobileGrid {
     display: none;
+  }
+}
+@media (max-width: 670px) {
+  .mobileGridText {
+    font-size: 3em;
+    top: 10rem;
+  }
+}
+@media (max-width: 575px) {
+  .mobileGridText {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 475px) {
+  .mobileGridText {
+    font-size: 2.2em;
+    top: 8.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .mobileGridText {
+    top: 7.5rem;
+  }
+}
+@media (max-width: 385px) {
+  .mobileGridText {
+    top: 6.5rem;
+  }
+}
+@media (max-width: 345px) {
+  .mobileGridText {
+    font-size: 2em;
+    top: 5.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .mobileGridText {
+    font-size: 2em;
+    top: 4.7rem;
   }
 }
 footer {

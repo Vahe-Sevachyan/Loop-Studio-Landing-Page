@@ -25,7 +25,6 @@
   font-family: "josefin sans", sans-serif;
   font-weight: 300;
 }
-
 //mobile grid
 .mobileGrid {
   max-width: 90%;
@@ -33,21 +32,29 @@
 }
 //mobile grid
 .mobileGridText {
-  top: 10rem;
-  font-size: 3.5rem;
+  top: 13rem;
+  left: 5rem;
+  font-size: 4.1em;
   position: absolute;
-  color: #fff;
+  color: rgb(245, 241, 241);
   font-family: "josefin sans", sans-serif;
   font-weight: 300;
+  width: 21rem;
 }
-.mobileGrid .imageContainer img {
+.mobileImageContainer {
+  position: relative;
+}
+// .mobileGrid:nth-child(4) .mobileImageContainer .mobileGridText {
+//   width: 10rem;
+// }
+.mobileGrid .mobileImageContainer img {
   margin: auto;
   width: 100%;
   margin-bottom: 2rem;
 }
-// .four {
-//   width: 9rem;
-// }
+.mobileGridText-x {
+  width: 10rem;
+}
 // grid switch break point
 @media (max-width: 839px) {
   .gridSection {
@@ -57,5 +64,44 @@
 @media (min-width: 840px) {
   .mobileGrid {
     display: none;
+  }
+}
+@media (max-width: 670px) {
+  .mobileGridText {
+    font-size: 3em;
+    top: 10rem;
+  }
+}
+@media (max-width: 575px) {
+  .mobileGridText {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 475px) {
+  .mobileGridText {
+    font-size: 2.2em;
+    top: 8.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .mobileGridText {
+    top: 7.5rem;
+  }
+}
+@media (max-width: 385px) {
+  .mobileGridText {
+    top: 6.5rem;
+  }
+}
+@media (max-width: 345px) {
+  .mobileGridText {
+    font-size: 2em;
+    top: 5.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .mobileGridText {
+    font-size: 2em;
+    top: 4.7rem;
   }
 }
