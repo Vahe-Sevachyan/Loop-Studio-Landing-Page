@@ -92,6 +92,7 @@
   border: 1px solid black;
   padding: 1.7rem 3rem 1rem 3rem;
 }
+
 @media (max-width: 1585px) {
   .creationsButtons {
     margin-top: 10rem;
@@ -130,13 +131,18 @@
 }
 //Break points section
 //creation buttons
-@media (max-width: 840px) {
+@media (max-width: 852px) {
   .creationsButtons {
     display: none;
   }
 }
-@media (min-width: 841px) {
+@media (min-width: 853px) {
   .creationHeaderMobile {
+    display: none;
+  }
+}
+@media (min-width: 853px) {
+  .seeAllHeaderMobile {
     display: none;
   }
 }

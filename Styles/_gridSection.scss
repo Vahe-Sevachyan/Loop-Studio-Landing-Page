@@ -56,12 +56,12 @@
   width: 10rem;
 }
 // grid switch break point
-@media (max-width: 839px) {
+@media (max-width: 852px) {
   .gridSection {
     display: none;
   }
 }
-@media (min-width: 840px) {
+@media (min-width: 853px) {
   .mobileGrid {
     display: none;
   }

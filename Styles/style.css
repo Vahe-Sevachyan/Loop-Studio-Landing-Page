@@ -311,13 +311,18 @@ header {
     line-height: 2.7rem;
   }
 }
-@media (max-width: 840px) {
+@media (max-width: 852px) {
   .creationsButtons {
     display: none;
   }
 }
-@media (min-width: 841px) {
+@media (min-width: 853px) {
   .creationHeaderMobile {
+    display: none;
+  }
+}
+@media (min-width: 853px) {
+  .seeAllHeaderMobile {
     display: none;
   }
 }
@@ -425,12 +430,12 @@ header {
   width: 10rem;
 }
 
-@media (max-width: 839px) {
+@media (max-width: 852px) {
   .gridSection {
     display: none;
   }
 }
-@media (min-width: 840px) {
+@media (min-width: 853px) {
   .mobileGrid {
     display: none;
   }
