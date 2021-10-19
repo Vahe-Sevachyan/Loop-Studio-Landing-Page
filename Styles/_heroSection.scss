@@ -53,11 +53,16 @@ header {
   padding: 3.5rem 2.8rem 2rem 3rem;
   margin-top: 32rem;
 }
-@media (max-width: 832px) {
+@media (max-width: 1050px) {
+  .immersiveHeader {
+    font-size: 9rem;
+  }
+}
+@media (max-width: 980px) {
   .immersiveHeader {
     margin: auto;
     margin-top: 18rem;
-    font-size: 9.7rem;
+    font-size: 9rem;
     padding: 3.5rem 3rem 2rem 3rem;
     max-width: 100%;
   }
