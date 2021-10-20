@@ -237,6 +237,12 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.creationsButtons button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.7s;
+}
 
 .creationsButtons h3 {
   font-size: 3rem;
@@ -271,6 +277,12 @@ header {
   margin-bottom: 4rem;
   border: 1px solid black;
   padding: 1.7rem 3rem 1rem 3rem;
+}
+.seeAllHeaderMobile:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.7s;
 }
 
 @media (max-width: 1585px) {
@@ -505,6 +517,15 @@ footer a {
   justify-content: space-between;
   width: 18rem;
 }
+.socialMediaIcons img {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+.socialMediaIcons img:hover {
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
 
 .copyRight {
   color: #fff;
@@ -523,12 +544,14 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
-
-.mobileLinks {
-  margin: auto;
-  width: 20rem;
-  text-align: center;
-  margin-bottom: 3rem;
+.footerLinks a {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+.footerLinks a:hover {
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
 }
 
 .mobileLogo {
@@ -546,6 +569,14 @@ footer a {
   justify-content: space-between;
   margin-bottom: 2rem;
 }
+.footerMediaIcons img {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+.footerMediaIcons img:hover {
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
 
 .mobileCopyRight {
   margin: auto;
@@ -561,7 +592,7 @@ footer a {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 20rem;
+  width: 7rem;
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 700;
@@ -569,6 +600,13 @@ footer a {
 }
 .mobile-links a {
   margin-bottom: 3rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+.mobile-links a:hover {
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+  transition: ease-in-out 1s;
 }
 
 .attribution {
@@ -582,7 +620,7 @@ footer a {
   margin-bottom: 2rem;
 }
 .attribution a:hover {
-  color: grey;
+  color: lightblue;
 }
 
 @media (max-width: 1100px) {

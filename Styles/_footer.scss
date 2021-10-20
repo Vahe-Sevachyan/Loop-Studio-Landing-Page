@@ -16,6 +16,15 @@ footer a {
   display: flex;
   justify-content: space-between;
   width: 18rem;
+  img {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+  }
+  img:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
 }
 .copyRight {
   color: #fff;
@@ -31,12 +40,15 @@ footer a {
   width: 35rem;
   display: flex;
   justify-content: space-between;
-}
-.mobileLinks {
-  margin: auto;
-  width: 20rem;
-  text-align: center;
-  margin-bottom: 3rem;
+  a {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+  }
+  a:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
 }
 .mobileLogo {
   margin: auto;
@@ -51,6 +63,14 @@ footer a {
   text-align: center;
   justify-content: space-between;
   margin-bottom: 2rem;
+  img {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+  }
+  img:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+  }
 }
 .mobileCopyRight {
   margin: auto;
@@ -65,15 +85,27 @@ footer a {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 20rem;
+  width: 7rem;
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 700;
   font-family: "josefin sans", sans-serif;
   a {
     margin-bottom: 3rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+  }
+  a:hover {
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    transition: ease-in-out 1s;
   }
 }
+// .mobile-links a:hover {
+//   border-bottom: 1px solid whitesmoke;
+//   cursor: pointer;
+//   transition: ease-in-out 1s;
+// }
 .attribution {
   width: 70%;
   color: #fff;
@@ -83,11 +115,11 @@ footer a {
   font-weight: 600;
   text-align: center;
   margin-bottom: 2rem;
+
   a:hover {
-    color: grey;
+    color: lightblue;
   }
 }
-
 @media (max-width: 1100px) {
   .footerLogo {
     width: 16rem;
