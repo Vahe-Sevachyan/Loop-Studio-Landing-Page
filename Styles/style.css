@@ -405,6 +405,29 @@ header {
   overflow: hidden;
 }
 
+.bag-btn {
+  position: absolute;
+  top: 89%;
+  right: 0;
+  background: #f9fafc;
+  color: black;
+  border: none;
+  text-transform: uppercase;
+  padding: 1.5rem 10.75rem;
+  letter-spacing: 0.1rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(101%);
+  cursor: pointer;
+  opacity: 0.7;
+  filter: brightness(120%);
+}
+
+.image-container:hover .bag-btn {
+  transform: translateX(0);
+}
+
 .gridText {
   top: 75%;
   left: 10%;
