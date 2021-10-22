@@ -10,6 +10,7 @@ Users can:
 
 ### Built with
 
+- JavaScript
 - Semantic HTML5
 - CSS/SCSS
 - Flexbox/Grid
