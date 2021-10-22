@@ -404,6 +404,9 @@ header {
   position: relative;
   overflow: hidden;
 }
+.image-container:hover {
+  opacity: 0.8;
+}
 
 .bag-btn {
   position: absolute;
@@ -457,6 +460,9 @@ header {
 
 .mobileImageContainer {
   position: relative;
+}
+.mobileImageContainer:hover {
+  opacity: 0.8;
 }
 
 .mobileGrid .mobileImageContainer img {

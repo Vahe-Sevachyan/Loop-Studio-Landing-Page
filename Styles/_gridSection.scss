@@ -14,7 +14,11 @@
 .image-container {
   position: relative;
   overflow: hidden;
+  &:hover {
+    opacity: 0.8;
+  }
 }
+
 .bag-btn {
   position: absolute;
   top: 89%;
@@ -34,7 +38,6 @@
   filter: brightness(120%);
 }
 .image-container:hover .bag-btn {
-  // opacity: 0.5;
   transform: translateX(0);
 }
 .gridText {
@@ -47,7 +50,6 @@
   font-family: "josefin sans", sans-serif;
   font-weight: 300;
 }
-
 //mobile grid
 .mobileGrid {
   max-width: 90%;
@@ -66,10 +68,10 @@
 }
 .mobileImageContainer {
   position: relative;
+  &:hover {
+    opacity: 0.8;
+  }
 }
-// .mobileGrid:nth-child(4) .mobileImageContainer .mobileGridText {
-//   width: 10rem;
-// }
 .mobileGrid .mobileImageContainer img {
   margin: auto;
   width: 100%;
