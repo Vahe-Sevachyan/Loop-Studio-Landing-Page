@@ -24,4 +24,4 @@ Users can:
 
 ### Screenshot Samples
 
-> ![](screenshots/Screen-Shot-1.png?raw=true) >![](screenshots/Screen-Shot-2.png?raw=true) > ![](screenshots/Screen-Shot-3.png?raw=true) > ![](screenshots/Screen-Shot-4.png?raw=true)
+> ![](Screenshots/Screen-Shot-1.png?raw=true) >![](Screenshots/Screen-Shot-2.png?raw=true) > ![](Screenshots/Screen-Shot-3.png?raw=true) > ![](Screenshots/Screen-Shot-4.png?raw=true)
